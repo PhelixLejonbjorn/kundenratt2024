@@ -11,12 +11,7 @@ body {
     color: #ffffff;
 }
 
-body3 {
-    font-family: Arial, sans-serif;
-    background-color:  #2ecc70;
-    color: #ffffff;
-    background-image: https://img.freepik.com/free-vector/gradient-technology-cyber-background_23-2149112205.jpg;
-}
+
 
 .navbar {
     display: flex;
@@ -112,10 +107,14 @@ body3 {
     color: #333;
 }
 
+
 h2 
 {
-     margin: 20px;
-     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    font-size: 25px;
+    padding: 10px;
 }
 
 h3
@@ -126,13 +125,17 @@ h3
 
 h4
 {
-    margin: 20px auto;
-     font-size: 30px; 
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    font-size: 25px;
+    padding: 10px;
 }
 
 p1
 {
-    margin: 20px
+    display:flex; 
+    margin: 10px
 }
 
 p2
