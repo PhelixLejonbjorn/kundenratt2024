@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +8,40 @@
 </head>
 <body>
     <header>
-        <h1>Välkommen till CodeCrafters</h1>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="slide1.html">Learn</a></li>
+                <li><a href="slide2.html">Easy Code</a></li>
+                <li><a href="slide3.html">Contact</a></li>
+            </ul>
+            <div class="logo">
+                <h1>CodeCrafters</h1>
+            </div>
+        </nav>
     </header>
     <main>
-        <section id="editor">
-            <textarea id="code-input" placeholder="Skriv din kod här..."></textarea>
-        </section>
-        <section id="output">
-            <h2>Resultat</h2>
-            <div id="result"></div>
+        <section class="card-container">
+            <div class="card">
+                <a href="slide1.html">
+                    <img src="https://ocsef.org/wp-content/uploads/2024/05/laptop-screen-with-coded-data-square-300x300.jpg" alt="Code Editor">
+                    <p>Master the Art of Coding</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="slide2.html">
+                    <img src="https://eden-tutors.co.uk/wp-content/uploads/2023/10/Insta-posts-4-1-300x300.png" alt="Easy">
+                    <p>Easy way to Code!</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="slide3.html">
+                    <img src="https://www.learningpremier.com/wp-content/uploads/2020/05/positive-employee-300x300.png" alt="Contact">
+                    <p>Our employees</p>
+                </a>
+            </div>
         </section>
     </main>
-    <script src="app.js"></script>
+    
 </body>
 </html>
